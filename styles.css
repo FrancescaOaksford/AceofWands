@@ -1,0 +1,27 @@
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    height: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.image-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.canvas{
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
